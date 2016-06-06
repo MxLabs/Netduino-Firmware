@@ -10,7 +10,7 @@
     <PLATFORM>Netduino</PLATFORM>
     <IsSolutionWizardVisible>True</IsSolutionWizardVisible>
     <ENDIANNESS>le</ENDIANNESS>
-    <OEMSystemInfoString>Netduino (v4.2.0.1) by Secret Labs LLC</OEMSystemInfoString>
+    <OEMSystemInfoString>Netduino (v4.2.0.2) by Secret Labs LLC</OEMSystemInfoString>
   </PropertyGroup>
   <ItemGroup>
     <IncludePaths Include="Solutions\Netduino" />
