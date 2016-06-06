@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Author>Secret Labs LLC</Author>
+    <Description />
+    <Documentation />
+    <PlatformGuid>{c6e3e63c-3f4b-4c1c-a40a-f410db758cbb}</PlatformGuid>
+    <INSTRUCTION_SET>THUMB</INSTRUCTION_SET>
+    <TARGETPLATFORM>NetduinoMini</TARGETPLATFORM>
+    <PLATFORM>NetduinoMini</PLATFORM>
+    <IsSolutionWizardVisible>True</IsSolutionWizardVisible>
+    <ENDIANNESS>le</ENDIANNESS>
+    <OEMSystemInfoString>Netduino Mini (v4.2.0.1) by Secret Labs LLC</OEMSystemInfoString>
+  </PropertyGroup>
+  <ItemGroup>
+    <IncludePaths Include="Solutions\NetduinoMini" />
+    <TinyCLR_Defines Include="PLATFORM_DEPENDENT_HEAP_SIZE_THRESHOLD=10240" />
+    <TinyCLR_Defines Include="PLATFORM_DEPENDENT_HEAP_SIZE_THRESHOLD_UPPER=131072" />
+    <TinyCLR_Defines Include="PLATFORM_NO_CLR_TRACE=1" />
+  </ItemGroup>
+  <Import Project="$(SPOCLIENT)\devicecode\Targets\Native\AT91\AT91SAM7X.settings" />
+</Project>

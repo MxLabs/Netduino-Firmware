@@ -1,0 +1,288 @@
+The .NET Micro Framework Solution Wizard will create the 'NetduinoPlus' solution in the directory:
+
+	C:\MicroFrameworkPK_v4_2\\Solutions\NetduinoPlus
+
+The following is a description of the components of this solution.  Each solution consists of a set of projects which in turn have a set of features and libraries.
+
+    Solution:                          	 NetduinoPlus
+    Author:                            	 Secret Labs LLC
+    Description:                       	 
+    Processor:                         	 AT91SAM7X
+    Debugger Port:                     	 USB1
+
+
+Project Tinybooter
+    Description:                       	 
+    Path:                              	 Solutions\NetduinoPlus\TinyBooter
+
+Libraries:
+    TinybooterLib:                     	 TinyBooter core library
+    Crypto_stub:                       	 Crypto stub library
+    GlobalLock_hal:                    	 Global lock (native threading control)
+    TinyHal_loader:                    	 Core HAL library (for boot loaders)
+    backlight_hal_stubs:               	 Backlight HAL stub library
+    batterycharger_hal_stubs:          	 Battery charger stub library
+    batterymeasurement_hal_stubs:      	 Battery measurement stub library
+    lcd_hal_stubs:                     	 Stub display driver
+    cpu_cache_stubs:                   	 Cache stub library
+    cpu_ebiu_stubs:                    	 EBIU stub library
+    cpu_LCD_stubs:                     	 Display controller stub library
+    cpu_spi_stubs:                     	 SPI stub library
+    cpu_watchdog_stubs:                	 Watchdog driver
+    system_initialization_hal_loader:  	 System initialization (for boot loaders)
+    asyncproccall_pal:                 	 Asynchronous procedure call library
+    blockstorage_pal:                  	 Block storage library
+    AT91_BL_EFC:                       	 Block storage driver for AT91
+    Watchdog_pal_stubs:                	 Watchdog stub
+    Buttons_pal:                       	 Buttons library
+    COM_pal:                           	 Communication port director
+    DebuggerPort_SSL_Config_stubs:     	 DebuggerPort SSL Config stub
+    i2c_pal_stubs:                     	 I2C stub library
+    sockets_pal_stubs:                 	 Network socket stub driver
+    config_pal_loader:                 	 System configuration boot loader library
+    diagnostics_pal:                   	 Diagnostics library
+    events_pal:                        	 System event library
+    heap_pal:                          	 Managed heap size and location configuration
+    piezo_pal_stubs:                   	 Piezo stub driver
+    SimpleHeap:                        	 SimpleHeap unmanaged heap
+    SimpleHeap_config_stubs:           	 SimpleHeap configuration stub library
+    tinycrt_pal_loader:                	 CRT functionality (for boot loaders)
+    AT91_AIC:                          	 Atmel AT91 interrupt controller driver
+    AT91_GPIO:                         	 Atmel AT91 general purpose input-output (GPIO) driver
+    AT91_PreStackInit:                 	 Freescale AT91 processor pre-stack initialization
+    AT91_SAM:                          	 Atmel processor power driver
+    AT91_TIMER:                        	 Atmel AT91 timer driver
+    AT91_TIME:                         	 Atmel AT91 time driver
+    CRC:                               	 CRC library
+    WireProtocol:                      	 Device communication protocol
+    fs_pal_stubs:                      	 File System stub library
+    Ink_pal_stubs:                     	 Ink set of methods used by Ink, Ink
+    Gesture_pal_stubs:                 	 Gesture set of methods used by Gesture, Ink
+    palevent_pal_stubs:                	 palevent set of methods used by Gesture, Ink
+    Time_pal:                          	 Time set of methods used by Time, Time
+    TimeService_pal_stubs:             	 TimeService set of methods used by TimeService, TimeService
+    cpu_mmu_stubs:                     	 Memory management unit stub library
+    SAM7X_Bootstrap:                   	 Atmel Sam7x bootstrap driver
+    AT91_USB:                          	 Atmel AT91 USB driver
+    usb_pal:                           	 USB driver
+    usart_pal:                         	 USART driver
+    AT91_USART_loader:                 	 Atmel AT91 USART driver (for boot loaders)
+    usart_pal_stubs:                   	 USART stub driver
+    cpu_usart_stubs:                   	 USART stub library
+    usb_pal_config_AT91SAM7:           	 USB PAL configuration for Atmel SAM7X
+    Sam7x_BL_config:                   	 Block storage configuration for NetduinoPlus
+    cpu_analog_stubs:                  	 Analog stub library
+    cpu_pwm_stubs:                     	 PWM stub library
+    Analog_DA_HAL_NetduinoPlus:        	 Generates template code in your solution's DeviceCode directory for the given Library Category.The project will be generated in Solutions\NetduinoPlus\DeviceCode\Analog_DA_HAL
+    FileSystem_Config_PAL_NetduinoPlus:	 Generates template code in your solution's DeviceCode directory for the given Library Category.The project will be generated in Solutions\NetduinoPlus\DeviceCode\FileSystem_Config_PAL
+    BlockStorage_AddDevices_NetduinoPlus:	 Block storage add device driver for NetduinoPlus
+    native_double_pal:                 	 Doubles Native PAL library
+
+
+Project TinyBooterDecompressor
+    Description:                       	 
+    Path:                              	 Solutions\NetduinoPlus\TinyBooter
+
+Libraries:
+    TinyBooterDecompressorLib:         	 TinyBooter decompressor library
+    TinybooterLib:                     	 TinyBooter core library
+    Crypto_stub:                       	 Crypto stub library
+    GlobalLock_hal:                    	 Global lock (native threading control)
+    TinyHal_loader:                    	 Core HAL library (for boot loaders)
+    backlight_hal_stubs:               	 Backlight HAL stub library
+    batterycharger_hal_stubs:          	 Battery charger stub library
+    batterymeasurement_hal_stubs:      	 Battery measurement stub library
+    lcd_hal_stubs:                     	 Stub display driver
+    cpu_cache_stubs:                   	 Cache stub library
+    cpu_ebiu_stubs:                    	 EBIU stub library
+    cpu_LCD_stubs:                     	 Display controller stub library
+    cpu_mmu_stubs:                     	 Memory management unit stub library
+    cpu_spi_stubs:                     	 SPI stub library
+    cpu_watchdog_stubs:                	 Watchdog driver
+    system_initialization_hal_loader:  	 System initialization (for boot loaders)
+    asyncproccall_pal:                 	 Asynchronous procedure call library
+    blockstorage_pal:                  	 Block storage library
+    AT91_BL_EFC:                       	 Block storage driver for AT91
+    Watchdog_pal_stubs:                	 Watchdog stub
+    Buttons_pal:                       	 Buttons library
+    COM_pal_stubs:                     	 Communication port directory stub
+    i2c_pal_stubs:                     	 I2C stub library
+    sockets_pal_stubs:                 	 Network socket stub driver
+    usb_pal_stubs:                     	 USB stub driver
+    config_pal_loader:                 	 System configuration boot loader library
+    diagnostics_pal:                   	 Diagnostics library
+    events_pal:                        	 System event library
+    heap_pal:                          	 Managed heap size and location configuration
+    piezo_pal_stubs:                   	 Piezo stub driver
+    SimpleHeap_stubs:                  	 SimpleHeap unmanaged heap stub library
+    SimpleHeap_config_stubs:           	 SimpleHeap configuration stub library
+    tinycrt_pal_loader:                	 CRT functionality (for boot loaders)
+    AT91_AIC:                          	 Atmel AT91 interrupt controller driver
+    AT91_GPIO:                         	 Atmel AT91 general purpose input-output (GPIO) driver
+    AT91_PreStackInit:                 	 Freescale AT91 processor pre-stack initialization
+    AT91_SAM:                          	 Atmel processor power driver
+    AT91_TIMER:                        	 Atmel AT91 timer driver
+    AT91_TIME:                         	 Atmel AT91 time driver
+    usart_pal_stubs:                   	 USART stub driver
+    CRC:                               	 CRC library
+    WireProtocol:                      	 Device communication protocol
+    fs_pal_stubs:                      	 File System stub library
+    Ink_pal_stubs:                     	 Ink set of methods used by Ink, Ink
+    Gesture_pal_stubs:                 	 Gesture set of methods used by Gesture, Ink
+    palevent_pal_stubs:                	 palevent set of methods used by Gesture, Ink
+    Time_pal:                          	 Time set of methods used by Time, Time
+    TimeService_pal_stubs:             	 TimeService set of methods used by TimeService, TimeService
+    SAM7X_Bootstrap:                   	 Atmel Sam7x bootstrap driver
+    Sam7x_BL_config:                   	 Block storage configuration for NetduinoPlus
+    cpu_analog_stubs:                  	 Analog stub library
+    cpu_pwm_stubs:                     	 PWM stub library
+    Analog_DA_HAL_NetduinoPlus:        	 Generates template code in your solution's DeviceCode directory for the given Library Category.The project will be generated in Solutions\NetduinoPlus\DeviceCode\Analog_DA_HAL
+    FileSystem_Config_PAL_NetduinoPlus:	 Generates template code in your solution's DeviceCode directory for the given Library Category.The project will be generated in Solutions\NetduinoPlus\DeviceCode\FileSystem_Config_PAL
+    BlockStorage_AddDevices_NetduinoPlus:	 Block storage add device driver for NetduinoPlus
+    native_double_pal:                 	 Doubles Native PAL library
+
+
+Project tinyclr
+    Description:                       	 
+    Path:                              	 Solutions\NetduinoPlus\TinyCLR
+
+Features:
+    Core:                              	 Core functionality (required)
+    Hardware:                          	 Core hardware component
+    NativeEventDispatcher:             	 Native event dispatching for interop
+    BlockStorage:                      	 Block storage support
+    Debugger:                          	 Visual Studio debugger support
+    SOCKET:                            	 Socket transport
+    Serial:                            	 Serial transport
+    Network (RTIP):                    	 Network core functionality for RTIP
+    Network (LWIP):                    	 Network core functionality for lwIP stack
+    SerialPort:                        	 Serial port component
+    USB:                               	 Usb Transport
+    I2C:                               	 I2C Support
+    InterruptHandler:                  	 Support for interrupt handling
+    Diagnostics:                       	 Diagnostic utilities
+    Stream:                            	 Stream component
+    FileSystem:                        	 File system
+    PWM:                               	 PWM component
+    SD:                                	 SD card feature
+    SPI:                               	 SPI support
+    UsbClient:                         	 Usb client component
+
+Libraries:
+    MFUpdate_PAL_stub:                 	 MFUpdate PAL stub component
+    LargeBuffer_hal_stubs:             	 LargeBuffer stub library
+    Core:                              	 CLR core library
+    Hardware:                          	 Core hardware functionality
+    InterruptHandler:                  	 Interrupt handler library
+    HeapPersistence_stub:              	 Heap persistence stub library
+    I2C:                               	 I2C support
+    IOPort:                            	 Native event dispatcher (formerly IOPort)
+    RPC_stub:                          	 Remote procedure call stub library
+    Serialization_stub:                	 Binary serialization stub library
+    Debugger:                          	 Visual Studio debugging support
+    Debugger_full:                     	 Full Visual Studio debugging support
+    Debugger_minimal:                  	 Minimal debug API methods
+    Graphics_stub:                     	 Graphics stub library
+    CorLib:                            	 Subset of mscorlib
+    SPOT:                              	 Common interop library
+    SPOT_Messaging_stub:               	 Messaging interop stub library
+    SPOT_Serialization_stub:           	 Serialization interop stub library
+    SPOT_Hardware:                     	 Hardware interop library
+    virtualkey_hal_stubs:              	 Virtual key stub library
+    SPOT_Net:                          	 Network interop library
+    Messaging:                         	 Core communication component
+    CLRStartup:                        	 Common CLR initialization library
+    Crypto_stub:                       	 Crypto stub library
+    GlobalLock_hal:                    	 Global lock (native threading control)
+    TinyHal:                           	 Core HAL library
+    AT91_PreStackInit:                 	 Freescale AT91 processor pre-stack initialization
+    backlight_hal_stubs:               	 Backlight HAL stub library
+    batterycharger_hal_stubs:          	 Battery charger stub library
+    batterymeasurement_hal_stubs:      	 Battery measurement stub library
+    lcd_hal_stubs:                     	 Stub display driver
+    cpu_cache_stubs:                   	 Cache stub library
+    cpu_ebiu_stubs:                    	 EBIU stub library
+    cpu_LCD_stubs:                     	 Display controller stub library
+    cpu_watchdog_stubs:                	 Watchdog driver
+    system_initialization_hal:         	 System initialization library
+    asyncproccall_pal:                 	 Asynchronous procedure call library
+    Watchdog_pal_stubs:                	 Watchdog stub
+    blockstorage_pal:                  	 Block storage library
+    AT91_BL_EFC:                       	 Block storage driver for AT91
+    Buttons_pal_stubs:                 	 Buttons stub library
+    COM_pal:                           	 Communication port director
+    DebuggerPort_SSL_Config_stubs:     	 DebuggerPort SSL Config stub
+    i2c_pal:                           	 I2C drivers
+    ssl_pal_stubs:                     	 SSL PAL layer stub library
+    Ethernet_loopback:                 	 Loopback Ethernet Driver
+    sockets_pal_stubs:                 	 Network socket stub driver
+    sockets_pal:                       	 Network sockets driver
+    sockets_hal:                       	 Network stack driver
+    sockets_dhcp:                      	 DHCP network library
+    sockets_hal_tcp:                   	 TCP network library
+    sockets_hal_udp:                   	 UDP network Library
+    sockets_rtip_pal:                  	 RTIP network driver
+    sockets_ssl_stubs:                 	 SSL stub library
+    sockets_hal_async:                 	 Network async abstraction layer
+    AT91_EMAC:                         	 Atmel AT91SAM7X Ethernet driver
+    SAM7X_EMAC_Config:                 	 Ethernet configuration driver for NetduinoPlus solution
+    AT91_EMAC_lwip:                    	 Atmel AT91SAM7X lwIP Ethernet driver
+    SAM7X_EMAC_lwip_Config:            	 Ethernet lwIP configuration driver for NetduinoPlus solution
+    sockets_pal_lwip:                  	 Network sockets driver for lwIP stack
+    sockets_lwIP_pal:                  	 lwIP network driver
+    sockets_hal_async_LWIP:            	 Network async abstraction layer
+    sockets_hal_sockets_lwIP:          	 Network async abstraction layer
+    sockets_hal_dhcp_lwIP:             	 LWIP DHCP Driver
+    sockets_hal_TCP_LWIP:              	 LWIP TCP layer
+    sockets_hal_udp_lwIP:              	 LWIP UDP netowrk layer
+    Ethernet_loopback_lwip:            	 Loopback Ethernet Driver
+    usb_pal:                           	 USB driver
+    usb_pal_config_AT91SAM7:           	 USB PAL configuration for Atmel SAM7X
+    config_pal:                        	 System configuration
+    diagnostics_pal:                   	 Diagnostics library
+    events_pal:                        	 System event library
+    heap_pal:                          	 Managed heap size and location configuration
+    piezo_pal_stubs:                   	 Piezo stub driver
+    SimpleHeap_stubs:                  	 SimpleHeap unmanaged heap stub library
+    SimpleHeap_config_stubs:           	 SimpleHeap configuration stub library
+    tinycrt_pal:                       	 CRT functionality
+    AT91_AIC:                          	 Atmel AT91 interrupt controller driver
+    AT91_GPIO:                         	 Atmel AT91 general purpose input-output (GPIO) driver
+    AT91_SAM:                          	 Atmel processor power driver
+    AT91_TIMER:                        	 Atmel AT91 timer driver
+    AT91_TIME:                         	 Atmel AT91 time driver
+    AT91_USB:                          	 Atmel AT91 USB driver
+    AT91_I2C:                          	 Atmel AT91 I2C driver
+    Sam7x_BL_config:                   	 Block storage configuration for NetduinoPlus
+    CRC:                               	 CRC library
+    WireProtocol:                      	 Device communication protocol
+    Ink_pal_stubs:                     	 Ink set of methods used by Ink, Ink
+    Gesture_pal_stubs:                 	 Gesture set of methods used by Gesture, Ink
+    palevent_pal_stubs:                	 palevent set of methods used by Gesture, Ink
+    Time_pal:                          	 Time set of methods used by Time, Time
+    TimeService_pal_stubs:             	 TimeService set of methods used by TimeService, TimeService
+    cpu_mmu_stubs:                     	 Memory management unit stub library
+    cpu_analog_stubs:                  	 Analog stub library
+    SAM7X_Bootstrap:                   	 Atmel Sam7x bootstrap driver
+    SPOT_Hardware_SerialPort:          	 SerialPort interop library
+    usart_pal:                         	 USART driver
+    AT91_USART:                        	 Atmel AT91 USART driver
+    SecurityPkcs11:                    	 PKCS11
+    SPOT_Update:                       	 Common interop library
+    Diagnostics:                       	 Diagnostic functionality
+    Stream:                            	 Generic stream functionality
+    SPOT_IO:                           	 Stream interop library
+    fs_pal:                            	 File system PAL Driver
+    SPOT_Hardware_PWM:                 	 PWM interop library
+    SD_BL:                             	 SD driver
+    AT91_SPI:                          	 Atmel AT91 SPI driver
+    SPOT_Hardware_Usb:                 	 
+    FS_FAT:                            	 FAT file system 
+    Analog_DA_HAL_NetduinoPlus:        	 Generates template code in your solution's DeviceCode directory for the given Library Category.The project will be generated in Solutions\NetduinoPlus\DeviceCode\Analog_DA_HAL
+    FileSystem_Config_PAL_NetduinoPlus:	 Generates template code in your solution's DeviceCode directory for the given Library Category.The project will be generated in Solutions\NetduinoPlus\DeviceCode\FileSystem_Config_PAL
+    cpu_performancecounter_stubs:      	 Performance counter stub library
+    PWM_HAL_NetduinoPlus:              	 Generates template code in your solution's DeviceCode directory for the given Library Category.The project will be generated in Solutions\NetduinoPlus\DeviceCode\PWM_HAL
+    SD_Config_HAL_NetduinoPlus:        	 Generates template code in your solution's DeviceCode directory for the given Library Category.The project will be generated in Solutions\NetduinoPlus\DeviceCode\SD_Config_HAL
+    BlockStorage_AddDevices_NetduinoPlus:	 Block storage add device driver for NetduinoPlus
+    Network_config_NetduinoPlus:       	 Network configuration for SAM7_EK
+    native_double_pal:                 	 Doubles Native PAL library
