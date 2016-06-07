@@ -30,7 +30,7 @@
     <Compile Include="$(SPOCLIENT)\Application\common\assemblycode\thumb2\$(AS_SUBDIR)\BooterVectorTable.s" Condition=" '$(INSTRUCTION_SET)'=='thumb2'" />
     <Compile Include="$(SRC_DIR)\$(AS_SUBDIR)\TinyBooter_dat.s" />
     <ExtraProjects Include="$(SPOCLIENT)\Solutions\Netduino\TinyBooter\tinybooter.proj" />
-    <ScatterFileReferences Include="scatterfile_BootLoader_$(COMPILER_TOOL).xml')" />
+    <ScatterFileReferences Include="scatterfile_BootLoader_$(COMPILER_TOOL).xml" />
   </ItemGroup>
   <Import Condition="" Project="$(SPOCLIENT)\Framework\Features\USB_Port.featureproj" />
   <ItemGroup>
